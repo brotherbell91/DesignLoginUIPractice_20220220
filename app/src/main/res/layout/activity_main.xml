@@ -6,7 +6,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="25dp"
+    android:background="@drawable/login_background"
     tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/nepp_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
 
 
 </LinearLayout>
