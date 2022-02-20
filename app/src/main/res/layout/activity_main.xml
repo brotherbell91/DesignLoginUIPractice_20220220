@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="25dp"
-    android:background="@drawable/login_background"
+    android:padding="40dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,10 +15,34 @@
 
         <ImageView
             android:src="@drawable/nepp_logo"
-            android:layout_width="150dp"
-            android:layout_height="150dp" />
+            android:layout_width="160dp"
+            android:layout_height="160dp" />
 
     </LinearLayout>
+
+    <EditText
+        android:paddingTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:textStyle="bold"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/id_icon" />
+
+    <EditText
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:textStyle="bold"
+        android:hint="○ ○ ○ ○ ○ ○ ○ ○"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/password_icon" />
+
+
+
+
 
 
 </LinearLayout>
