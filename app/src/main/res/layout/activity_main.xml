@@ -88,31 +88,34 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
 
-        <ImageView
-            android:padding="15dp"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/kakao_login_icon" />
+        <Button
+            android:layout_margin="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/kakao_login_icon" />
 
-        <ImageView
-            android:padding="15dp"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/naver_login_icon" />
+        <Button
+            android:layout_margin="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/naver_login_icon" />
 
-        <ImageView
-            android:padding="15dp"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/google_login_icon" />
+        <Button
+            android:layout_margin="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/google_login_icon" />
 
-        <ImageView
-            android:padding="15dp"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/apple_login_icon" />
+        <Button
+            android:layout_margin="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/apple_login_icon" />
+
+
 
     </LinearLayout>
 
