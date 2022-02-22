@@ -62,7 +62,7 @@
         android:background="@color/Gray" />
 
     <LinearLayout
-        android:paddingTop="10dp"
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -75,6 +75,12 @@
             android:textSize="16sp"
             android:background="#00ff0000"
             android:layout_weight="1" />
+
+        <TextView
+            android:layout_marginVertical="10dp"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
 
         <Button
             android:layout_width="0dp"
