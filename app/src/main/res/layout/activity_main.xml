@@ -103,29 +103,94 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal">
 
-        <Button
-            android:layout_margin="15dp"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/kakao_login_icon" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
 
-        <Button
-            android:layout_margin="15dp"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/naver_login_icon" />
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/kakao_login_icon" />
 
-        <Button
-            android:layout_margin="15dp"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/google_login_icon" />
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KaKao"
+                android:textColor="@color/Gray"
+                android:textSize="18sp" />
 
-        <Button
-            android:layout_margin="15dp"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/apple_login_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/naver_login_icon" />
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naver"
+                android:textColor="@color/Gray"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/google_login_icon" />
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google"
+                android:textColor="@color/Gray"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/apple_login_icon" />
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:textColor="@color/Gray"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
 
 
 
